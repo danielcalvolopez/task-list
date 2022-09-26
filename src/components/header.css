@@ -1,0 +1,9 @@
+.title-wrapper {
+  display: flex;
+  justify-content: center;
+  font-family: "Inconsolata", monospace;
+  text-shadow: 2px 2px #ffc0c0;
+}
+
+.title-text {
+}

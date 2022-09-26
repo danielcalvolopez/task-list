@@ -1,0 +1,63 @@
+.to-do-list-item {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  background-color: #f6d1d1;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  text-align: start;
+  position: relative;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  margin-top: 1rem;
+  font-family: "Inconsolata", monospace;
+}
+
+.to-do-list-item-actions {
+  display: flex;
+  position: absolute;
+  transform: translate(-5%, -50%);
+  right: 0;
+  top: 50%;
+  gap: 5px;
+}
+.to-do-list-item-input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  padding: 0 5rem;
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+}
+
+.to-do-list-item__edit {
+  background-color: #ffdede;
+}
+
+.to-do-list-item__save {
+  display: flex;
+  justify-content: center;
+  padding: 0.2rem 0.3rem;
+  border: none;
+  background-color: #cf4a4a;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  width: 40px;
+}
+
+.to-do-list-item__delete {
+  display: flex;
+  justify-content: center;
+  padding: 0.2rem 0.3rem;
+  border: none;
+  background-color: #cf4a4a;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  width: 40px;
+  text-align: center;
+}

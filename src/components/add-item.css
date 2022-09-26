@@ -1,0 +1,37 @@
+.add-item {
+  display: flex;
+  justify-content: center;
+}
+
+.add-item-wrap {
+  display: flex;
+  align-items: center;
+  background-color: #f4f1f1;
+  padding: 0.2rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  width: 100%;
+  border-radius: 6px;
+}
+
+.add-item-input {
+  width: 100%;
+  border: none;
+  background-color: #f4f1f1;
+  font-size: 1.2rem;
+  padding: 0.2rem 0.5rem;
+  font-family: "Inconsolata", monospace;
+}
+
+.add-item-button {
+  padding: 0.2rem 0.3rem;
+  border: none;
+  background-color: #848484;
+  color: white;
+  border-radius: 6px;
+}
+
+.add-item-button:hover {
+  background-color: #9b9a9a;
+  transform: scale(1.1);
+  transition: all 200ms ease-in-out;
+}
